@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configurator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Port>8080</Port>
+  <LoadBalancerPort>0</LoadBalancerPort>
+  <ServConfig>Normal</ServConfig>
+  <MaxUsers>500</MaxUsers>
+  <RelativeWwwPath>www</RelativeWwwPath>
+  <ServerName>MyHttpServer</ServerName>
+  <Version>1.0</Version>
+  <IsCookielessSession>false</IsCookielessSession>
+  <AdminLogin>Admin</AdminLogin>
+  <AdminPassword>Admin</AdminPassword>
+  <EnableLogging>true</EnableLogging>
+  <LoggerPath>conf\logs\</LoggerPath>
+  <ConfiguratorPath>conf\config.xml</ConfiguratorPath>
+  <IsLoadBalancer>false</IsLoadBalancer>
+  <UseResponseCompression>true</UseResponseCompression>
+</Configurator>

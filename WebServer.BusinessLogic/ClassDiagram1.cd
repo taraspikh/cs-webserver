@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WebServer.BusinessLogic.Communicator" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBAEAAAgAAAAAARAMAAAgAAQgBAAAAAEQQAAEAAIAIA=</HashCode>
+      <FileName>Communicator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WebServer.BusinessLogic.Configurator">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAEAAQAAAAAAACgABABQAAACAAACAEAQAAAAAAAAAA=</HashCode>
+      <FileName>Configurator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebServer.BusinessLogic.ConfiguratorSerializer" Collapsed="true">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAQAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>ConfiguratorSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebServer.BusinessLogic.MyHttpServer" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAAABAAA=</HashCode>
+      <FileName>MyHttpServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebServer.BusinessLogic.Response" Collapsed="true">
+    <Position X="15.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAkAAAAAAAAIAAAACAAAACBAAAAAJCABAACE=</HashCode>
+      <FileName>Response.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebServer.BusinessLogic.ResponseBuilder" Collapsed="true">
+    <Position X="15.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAIAAAAAAAAAAAEAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>ResponseBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebServer.BusinessLogic.ResponseHeaderCreator" Collapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAEACAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>ResponseHeaderCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebServer.BusinessLogic.Handlers.BinaryHandler" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Handlers\BinaryHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebServer.BusinessLogic.Handlers.DirectoryHandler" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Handlers\DirectoryHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebServer.BusinessLogic.Handlers.ErrorHandler" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAIAAAAAAAAA=</HashCode>
+      <FileName>Handlers\ErrorHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebServer.BusinessLogic.Handlers.Handler" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAgAAACAAAAAAAAAAAAAgQAIAAAQAAAAAAAA=</HashCode>
+      <FileName>Handlers\Handler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebServer.BusinessLogic.Handlers.TextHandler" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Handlers\TextHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebServer.BusinessLogic.Request" Collapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAEAABQpAAAQCAIRAAUAAQgEAAAEKgAAAAoLAAQAAwA=</HashCode>
+      <FileName>Request.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebServer.BusinessLogic.Helpers.ByteArraysCombineExtension" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Helpers\ByteArraysCombineExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebServer.BusinessLogic.Helpers.WebserverConstants" Collapsed="true">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Helpers\WebserverConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="WebServer.BusinessLogic.ServerConfiguration" Collapsed="true">
+    <Position X="11.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Configurator.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WebServer.BusinessLogic.EnumHttpMetod" Collapsed="true">
+    <Position X="10" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAABAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Request.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

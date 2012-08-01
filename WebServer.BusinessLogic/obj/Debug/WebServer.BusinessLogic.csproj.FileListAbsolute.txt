@@ -1,0 +1,7 @@
+C:\Users\Taras\Desktop\1\WebServer.BusinessLogic\bin\Debug\WebServer.BusinessLogic.dll
+C:\Users\Taras\Desktop\1\WebServer.BusinessLogic\bin\Debug\WebServer.BusinessLogic.pdb
+C:\Users\Taras\Desktop\1\WebServer.BusinessLogic\bin\Debug\WebServer.BusinessLogic.dll.CodeAnalysisLog.xml
+C:\Users\Taras\Desktop\1\WebServer.BusinessLogic\bin\Debug\WebServer.BusinessLogic.dll.lastcodeanalysissucceeded
+C:\Users\Taras\Desktop\1\WebServer.BusinessLogic\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Taras\Desktop\1\WebServer.BusinessLogic\obj\Debug\WebServer.BusinessLogic.dll
+C:\Users\Taras\Desktop\1\WebServer.BusinessLogic\obj\Debug\WebServer.BusinessLogic.pdb

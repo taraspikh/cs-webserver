@@ -1,0 +1,31 @@
+﻿<Window x:Class="WebServer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Web Server" Loaded="Window_Loaded" StateChanged="Window_StateChanged" WindowState="Normal" Icon="/WebServer;component/res/ico/server.ico" WindowStyle="ThreeDBorderWindow" ShowInTaskbar="True" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Height="400" Width="410" ResizeMode="NoResize">
+    <Grid>
+        <GroupBox Header="Settings" Height="173" Margin="12,0,12,46" Name="groupBoxSettings" VerticalAlignment="Bottom">
+            <Grid>
+                <Label Content="Port:" Height="28" HorizontalAlignment="Left" Margin="10,10,0,0" Name="labelPort" VerticalAlignment="Top" />
+                <Label Content="Max users:" Height="28" HorizontalAlignment="Left" Margin="10,48,0,0" Name="labelMaxusers" VerticalAlignment="Top" />
+                <Label Content="Root directory:" Height="28" HorizontalAlignment="Left" Margin="10,86,0,0" Name="labelRootDirectory" VerticalAlignment="Top" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="104,12,0,0" Name="textBoxPort" VerticalAlignment="Top" Width="63" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="104,53,0,0" Name="textBoxMaxUsers" VerticalAlignment="Top" Width="63" />
+                <TextBox Height="23" Margin="104,88,109,0" Name="textBoxRootDirectory" VerticalAlignment="Top" />
+                <Button Content="Browse..." Margin="0,88,28,39" Name="buttonBrowse" Click="buttonBrowse_Click" HorizontalAlignment="Right" Width="75" />
+                <Button Content="LB Config" Height="23" HorizontalAlignment="Left" Margin="10,121,0,0" Name="buttonLBConfig" VerticalAlignment="Top" Width="75" Click="button1_Click" />
+            </Grid>
+        </GroupBox>
+        <Button Content="Apply" Margin="0,0,12,12" Name="buttonApply" Click="buttonApply_Click" HorizontalAlignment="Right" Width="75" Height="23" VerticalAlignment="Bottom" />
+        <Label  Content="" HorizontalAlignment="Left" Margin="12,0,0,7" Name="labelConnections" DataContext="{Binding}" Height="28" VerticalAlignment="Bottom" />
+        <GroupBox Header="Mode" Margin="12,12,12,228" Name="groupBox1">
+            <Grid>
+                <StackPanel HorizontalAlignment="Left" Margin="6,6,0,6" Name="stackPanel1" Width="117">
+                    <RadioButton Margin="5" Content="Normal" Height="16" Name="radioButtonNormal" />
+                    <RadioButton Margin="5" Content="Redirect" Height="16" Name="radioButtonRedirect" />
+                    <RadioButton Margin="5" Content="Load Balancer" Height="16" Name="radioButtonLoadBalancer" Checked="radioButtonLoadBalancer_Checked" />
+                </StackPanel>
+                <CheckBox Content="Is load balancer." Height="16" HorizontalAlignment="Left" Margin="129,63,0,0" Name="checkBoxLoadBalancer" VerticalAlignment="Top" />
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Window>

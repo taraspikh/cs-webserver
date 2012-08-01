@@ -1,0 +1,8 @@
+﻿16:14:34	Connected 127.0.0.1:8840
+16:14:34	GET / from 127.0.0.1; UserAgent: Opera/9.80 (Windows NT 6.1; WOW64; U; en) Presto/2.10.289 Version/12.00
+16:14:34	GET /favicon.ico from 127.0.0.1; UserAgent: Opera/9.80 (Windows NT 6.1; WOW64; U; en) Presto/2.10.289 Version/12.00
+16:14:34	Connected 127.0.0.1:8841
+16:14:34	Error 404 Not Found on path /favicon.ico
+16:14:34	GET /logo3w.png from 127.0.0.1; UserAgent: Opera/9.80 (Windows NT 6.1; WOW64; U; en) Presto/2.10.289 Version/12.00
+16:14:34	Disconnecting 127.0.0.1:8841
+16:14:34	Disconnecting 127.0.0.1:8840

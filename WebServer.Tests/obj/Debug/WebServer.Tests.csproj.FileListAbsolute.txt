@@ -1,0 +1,9 @@
+C:\Users\Taras\Desktop\1\WebServer.Tests\bin\Debug\WebServer.Tests.dll
+C:\Users\Taras\Desktop\1\WebServer.Tests\bin\Debug\WebServer.Tests.pdb
+C:\Users\Taras\Desktop\1\WebServer.Tests\bin\Debug\WebServer.BusinessLogic.dll
+C:\Users\Taras\Desktop\1\WebServer.Tests\bin\Debug\WebServer.exe
+C:\Users\Taras\Desktop\1\WebServer.Tests\bin\Debug\WebServer.BusinessLogic.pdb
+C:\Users\Taras\Desktop\1\WebServer.Tests\bin\Debug\WebServer.pdb
+C:\Users\Taras\Desktop\1\WebServer.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Taras\Desktop\1\WebServer.Tests\obj\Debug\WebServer.Tests.dll
+C:\Users\Taras\Desktop\1\WebServer.Tests\obj\Debug\WebServer.Tests.pdb
